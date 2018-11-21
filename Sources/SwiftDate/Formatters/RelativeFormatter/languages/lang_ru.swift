@@ -21,7 +21,7 @@ public class lang_ru: RelativeFormatterLang {
 			case 1:
 				return .one
 			case 2...4:
-				return .few
+				return .other
 			default:
 				break
 			}
